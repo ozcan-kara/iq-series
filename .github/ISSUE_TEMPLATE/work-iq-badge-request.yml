@@ -39,7 +39,7 @@ body:
 
   - type: checkboxes
     attributes:
-      label: "Ep 1 — The Intelligence Layer Behind Copilot & Agents"
+      label: "Ep 1 — Data, context, and tools at scale"
       description: Please upload a screenshot of the anonymized output of the REST API request in Graph Explorer.
       options:
         - label: I verify that I have uploaded a screenshot of my Episode 1 lab output with the anonymized output of the REST API request in Graph Explorer.
@@ -71,7 +71,7 @@ body:
 
   - type: checkboxes
     attributes:
-      label: Ep 3 — Tooling with MCP & Copilot CLI
+      label: Ep 3 — Tooling with MCP & CLI
       description: Please upload a screenshot of the home page of the vibe-coded prototype solution.
       options:
         - label: I verify that I have uploaded a screenshot of the home page of the vibe-coded prototype solution.

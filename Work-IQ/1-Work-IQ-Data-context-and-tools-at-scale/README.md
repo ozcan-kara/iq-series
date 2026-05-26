@@ -1,4 +1,4 @@
-# Episode 1: Work IQ: The Intelligence Layer Behind Copilot & Agents
+# Episode 1: Work IQ: Data, context, and tools at scale
 
 [![Episode 1 video](../../images/work-iq/ep1.png)](https://aka.ms/iq-series/work-iq/episode1)
 

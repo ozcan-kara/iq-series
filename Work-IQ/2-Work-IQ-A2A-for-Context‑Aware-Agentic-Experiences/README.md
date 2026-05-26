@@ -38,4 +38,4 @@ Ready to get hands-on? Head to the [Episode 2 lab](./lab/) for prerequisites, de
 
 - Ask your questions on our [Discord channel](https://discord.gg/REmjGvvFpW)
 
-### 🚀 Next Up: Continue to [Episode 3](../3-Work-IQ-Tooling-with-MCP-and-Copilot-CLI/) for the next step—Tooling with MCP & Copilot CLI!
+### 🚀 Next Up: Continue to [Episode 3](../3-Work-IQ-Tooling-with-MCP-and-CLI/) for the next step—Tooling with MCP & CLI!

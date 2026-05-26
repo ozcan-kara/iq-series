@@ -1,24 +1,24 @@
-# Lab 01: The Intelligence Layer Behind Copilot & Agents
+# Lab 01: Data, context, and tools at scale
 
-In this lab you are going to experiment how to use Work IQ to consume the intelligence of Microsoft 365 Copilot.
+In this lab you are going to experiment how to use Work IQ to consume data, context, and tools at scale.
 
 ## Understanding Work IQ
 
 All of us have data spread across Microsoft 365, Dataverse, and many line-of-business (LOB) systems.
 LLMs can use that data to generate answers and reasoning, but by themselves they do not understand who you are, how your organization works, or what matters most to your projects.
 
-In Microsoft 365, your day-to-day activity creates valuable context: meetings, emails, Teams conversations, and interactions with Microsoft 365 Copilot.
-Copilot can already use that context to understand your preferences, your working style, and how you want responses to be delivered.
+In Microsoft 365, your day-to-day activity creates valuable context: meetings, emails, Teams conversations, and interactions with Microsoft 365 and Microsoft 365 Copilot.
+Work IQ can use that context to understand your preferences, your working style, and how you want responses to be delivered.
 
 On top of this foundation, skills and tools enable agents to provide more relevant answers and perform actions in ways that match your habits and expectations.
-This is Work IQ: the intelligence layer that personalizes Copilot for you and your organization.
+This is Work IQ: your organization’s intelligence, unlocked for every agent.
 
 ![The architecture of Work IQ with Data, Context, and Skills & Tools](../../../images/work-iq/WorkIQ-Architecture.png)
 
 From an architectural perspective, Work IQ consists of:
-- **Data**: Combines everyday work signals with external enterprise data, including Microsoft 365 activity and LOB systems, to give Copilot real-time awareness.
+- **Data**: Combines everyday work signals with external enterprise data, including Microsoft 365 activity and LOB systems, to give Work IQ real-time awareness.
 - **Context**: Uses memory to learn your style, preferences, habits, and workflows, so it can understand your patterns over time.
-- **Skills & Tools**: Provides specialized capabilities and instructions that tailor Copilot and agents for specific tasks and outcomes.
+- **Skills & Tools**: Provides specialized capabilities and instructions that tailor agents for specific tasks and outcomes.
 
 ## Understanding Work IQ API
 
@@ -34,14 +34,13 @@ From a security and compliance perspective, Work IQ is designed to operate safel
 
 - Information is always security-trimmed.
 - Access is delegated and always scoped to user context.
-- Users need a valid Microsoft 365 Copilot license (with PAYG support expected).
 - Requests always honor tenant boundaries, sensitivity labels, and governance policies.
 
 When choosing a protocol, use the pattern that matches your scenario:
 
 - **A2A (Agent-to-Agent)**: Use when one agent delegates tasks to another agent, for example when an external HR agent requests Microsoft 365 context from a BizChat agent.
 - **MCP (Agent-to-Tool)**: Use when an orchestrator agent, such as GitHub Copilot, needs organization context and calls BizChat through Work IQ as a tool.
-- **REST (Human-to-Agent)**: Use when building intelligence into a web or mobile application via API, where an app asks questions and receives responses from an agent or BizChat.
+- **REST (Human-to-Agent)**: Use when building intelligence into a web or mobile application via API, where an app asks questions and receives responses from an agent.
 
 In practice, these options are complementary. You can combine them in larger multi-agent orchestrations while preserving a consistent intelligence layer and policy model.
 
@@ -173,4 +172,4 @@ As you can see, regardless if you use the Work IQ CLI, Work IQ A2A, Work IQ MCP 
 
 ## Where to go next
 
-- **Explore the IQ Series** — Continue learning with [Episode 2: A2A for Context‑Aware, Agentic Experiences](../../2-Work-IQ-A2A-for-Context‑Aware-Agentic-Experiences/) and [Episode 3: Tooling with MCP & Copilot CLI](../../3-Work-IQ-Tooling-with-MCP-and-Copilot-CLI/).
+- **Explore the IQ Series** — Continue learning with [Episode 2: A2A for Context‑Aware, Agentic Experiences](../../2-Work-IQ-A2A-for-Context‑Aware-Agentic-Experiences/) and [Episode 3: Tooling with MCP & CLI](../../3-Work-IQ-Tooling-with-MCP-and-CLI/).

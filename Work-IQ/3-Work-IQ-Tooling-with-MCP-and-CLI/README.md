@@ -1,4 +1,4 @@
-# Episode 3: Work IQ: Tooling with MCP & Copilot CLI
+# Episode 3: Work IQ: Tooling with MCP & CLI
 
 [![Episode 3 video](../../images/work-iq/ep3.png)](https://aka.ms/iq-series/work-iq/episode3)
 

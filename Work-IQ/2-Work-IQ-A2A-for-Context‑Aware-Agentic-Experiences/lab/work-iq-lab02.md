@@ -126,8 +126,8 @@ You can also expand the **Session Details** panel and inspect the transport prot
 
 ## Wrap up
 
-As you can see, you can consume Work IQ as a remote agent from any other agent, as long as you have support for the A2A protocol. This option opens plenty of possibilities like consuming Work IQ from almost any agentic platform, getting access to the intelligent layer behind Microsoft 365 Copilot from any AI solution.
+As you can see, you can consume Work IQ as a remote agent from any other agent, as long as you have support for the A2A protocol. This option opens plenty of possibilities like consuming Work IQ from almost any agentic platform, getting access to the intelligent layer of Work IQ from any AI solution.
 
 ## Where to go next
 
-- **Explore the IQ Series** — Continue learning with [Episode 3: Tooling with MCP & Copilot CLI](../../3-Work-IQ-Tooling-with-MCP-and-Copilot-CLI/).
+- **Explore the IQ Series** — Continue learning with [Episode 3: Tooling with MCP & CLI](../../3-Work-IQ-Tooling-with-MCP-and-CLI/).

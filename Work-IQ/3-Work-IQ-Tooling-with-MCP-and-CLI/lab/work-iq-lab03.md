@@ -1,4 +1,4 @@
-# Lab 03: Tooling with MCP & Copilot CLI
+# Lab 03: Tooling with MCP & CLI
 
 ## Understanding MCP in Work IQ
 
@@ -6,7 +6,7 @@ Model Context Protocol (MCP) is an open standard that lets AI clients connect to
 
 In practice, MCP enables clients like GitHub Copilot to discover and call capabilities exposed by MCP servers (for example, Work IQ tools). Instead of building custom integrations for each client and each tool, MCP provides a shared contract that makes integrations easier to build, reuse, and scale.
 
-For this lab, MCP is the bridge between GitHub Copilot CLI (the client) and Work IQ (the MCP server), so Copilot can securely invoke workplace intelligence tools when you approve it.
+For this lab, MCP is the bridge between GitHub Copilot CLI (the client) and Work IQ (the MCP server), so GitHub Copilot can securely invoke workplace intelligence tools when you approve it.
 
 ## Understanding Work IQ CLI and GitHub Copilot CLI
 
@@ -123,8 +123,8 @@ Help me create a PoC of the solution described in the e-mail that I've got in my
 
 This prompt will require GitHub Copilot to consume the **ask_work_iq** MCP tool to search and retrieve the body of the e-mail. Then it will work with its powerful vibe coding capabilities to create the prototype for you. It should take about 10 minutes or so to go through the whole process. At the end, you will have a fully functional prototype of the solution described in the hypotethical e-mail.
 
-Now image how powerful it is to being able to connect the intelligence of GitHub Copilot with the intelligence of Microsoft 365 Copilot. For example, in a real life scenario, you could have a Microsoft Teams meeting with a customer to discuss an ongoing software project. You could record the meeting and  generate the meeting summary via Microsoft 365 Copilot. Then, you could ask GitHub Copilot to process all the customer feedback, updating the codebase of the project accordingly to the customer's requests. Isn't it super powerful?
+Now image how powerful it is to being able to connect the intelligence of GitHub Copilot with the intelligence of Work IQ. For example, in a real life scenario, you could have a Microsoft Teams meeting with a customer to discuss an ongoing software project. You could record the meeting and  generate the meeting summary via Microsoft 365 Copilot. Then, you could ask GitHub Copilot to process all the customer feedback, updating the codebase of the project accordingly to the customer's requests, being able to read them through Work IQ. Isn't it super powerful?
 
 ## Where to go next
 
-- **Explore the IQ Series** — Continue learning with [Episode 2: Work IQ: A2A for Context‑Aware, Agentic Experiences](../../2-Work-IQ-A2A-for-Context‑Aware-Agentic-Experiences/) and [Episode 3: Tooling with MCP & Copilot CLI](../../3-Work-IQ-Tooling-with-MCP-and-Copilot-CLI/).
+- **Explore the IQ Series** — Continue learning with [Episode 2: Work IQ: A2A for Context‑Aware, Agentic Experiences](../../2-Work-IQ-A2A-for-Context‑Aware-Agentic-Experiences/) and [Episode 3: Tooling with MCP & CLI](../../3-Work-IQ-Tooling-with-MCP-and-CLI/).

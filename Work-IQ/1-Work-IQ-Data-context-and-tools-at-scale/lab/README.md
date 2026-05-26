@@ -1,10 +1,10 @@
-# Episode 1 Lab: The Intelligence Layer Behind Copilot & Agents
+# Episode 1 Lab: Data, context, and tools at scale
 
 This folder contains the hands-on lab for Episode 1 of The Work IQ Series.
 
 ## 📋 Prerequisites
 
-- **Microsoft 365 Tenant** with a **Microsoft 365 Copilot** license
+- **Microsoft 365 Tenant** with proper licensing
 - **Node.js** 22 or later installed
 - **GitHub Copilot CLI** installed
 - **Work IQ** enabled in your target tenant with **Administrative consent** for the **Work IQ application**
@@ -112,15 +112,15 @@ For a comprehensive beginner's guide to using GitHub Copilot CLI, visit the [Git
 
 Follow this brief enablement flow as a tenant admin:
 
-1. Verify Microsoft 365 Copilot licenses are available and assigned to users who need Work IQ.
-2. Sign in with an eligible admin role (for example, Global Administrator or Application Administrator).
-3. Grant tenant-wide admin consent using this URL:
+1. Verify licensing requirements are satisfied for users who need Work IQ.
+1. Sign in with an eligible admin role (for example, Global Administrator or Application Administrator).
+1. Grant tenant-wide admin consent using this URL:
   `https://login.microsoftonline.com/{your-tenant-id}/adminconsent?client_id=ba081686-5d24-4bc6-a0d6-d034ecffed87`
   Replace `{your-tenant-id}` with your tenant ID (GUID) or tenant domain, open it in a browser, sign in as admin, then click **Accept**.
-4. If the consent page returns access-denied/AADSTS errors, run the enablement script to provision missing service principals, then retry consent:
+1. If the consent page returns access-denied/AADSTS errors, run the enablement script to provision missing service principals, then retry consent:
   `https://github.com/microsoft/work-iq/blob/main/scripts/Enable-WorkIQToolsForTenant.ps1`
-5. Validate in Microsoft Entra admin center > Enterprise applications > Work IQ CLI > Permissions, and confirm all required permissions are granted for your organization.
-6. Optionally restrict access by setting Assignment required? to Yes and assigning only approved users/groups.
+1. Validate in Microsoft Entra admin center > Enterprise applications > Work IQ CLI > Permissions, and confirm all required permissions are granted for your organization.
+1. Optionally restrict access by setting Assignment required? to Yes and assigning only approved users/groups.
 
 For complete prerequisites, exact URLs/scripts, troubleshooting, and security guidance, see the full admin guide: https://github.com/microsoft/work-iq/blob/main/ADMIN-INSTRUCTIONS.md
 
